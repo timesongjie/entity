@@ -10,6 +10,7 @@ public class Account {
     private String password;
     private Byte status;
     private String phoneNumber;
+    private String perms;
 
     public Account() {
 
@@ -59,4 +60,13 @@ public class Account {
     public void setPhoneNumber(String phoneNumber) {
 	this.phoneNumber = phoneNumber;
     }
+
+    public String getPerms() {
+	return perms;
+    }
+
+    public void setPerms(String perms) {
+	this.perms = perms;
+    }
+
 }
