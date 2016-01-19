@@ -28,99 +28,99 @@ public class ServiceInfo {
     private Date eserviceDate;
 
     public Integer getId() {
-	return id;
+        return id;
     }
 
     public void setId(Integer id) {
-	this.id = id;
+        this.id = id;
     }
 
     public Integer getServiceTypeId() {
-	return serviceTypeId;
+        return serviceTypeId;
     }
 
     public void setServiceTypeId(Integer serviceTypeId) {
-	this.serviceTypeId = serviceTypeId;
+        this.serviceTypeId = serviceTypeId;
     }
 
     public String getDeviceCode() {
-	return deviceCode;
+        return deviceCode;
     }
 
     public void setDeviceCode(String deviceCode) {
-	this.deviceCode = deviceCode == null ? null : deviceCode.trim();
+        this.deviceCode = deviceCode == null ? null : deviceCode.trim();
     }
 
     public String getServiceName() {
-	return serviceName;
+        return serviceName;
     }
 
     public void setServiceName(String serviceName) {
-	this.serviceName = serviceName == null ? null : serviceName.trim();
+        this.serviceName = serviceName == null ? null : serviceName.trim();
     }
 
     public Date getServiceDate() {
-	return serviceDate;
+        return serviceDate;
     }
 
     public void setServiceDate(Date serviceDate) {
-	this.serviceDate = serviceDate;
+        this.serviceDate = serviceDate;
     }
 
     public String getServiceLocation() {
-	return serviceLocation;
+        return serviceLocation;
     }
 
     public void setServiceLocation(String serviceLocation) {
-	this.serviceLocation = serviceLocation == null ? null : serviceLocation.trim();
+        this.serviceLocation = serviceLocation == null ? null : serviceLocation.trim();
     }
 
     public String getServiceContent() {
-	return serviceContent;
+        return serviceContent;
     }
 
     public void setServiceContent(String serviceContent) {
-	this.serviceContent = serviceContent == null ? null : serviceContent.trim();
+        this.serviceContent = serviceContent == null ? null : serviceContent.trim();
     }
 
     public String getBak() {
-	return bak;
+        return bak;
     }
 
     public void setBak(String bak) {
-	this.bak = bak == null ? null : bak.trim();
+        this.bak = bak == null ? null : bak.trim();
     }
 
     public ServiceType getServiceType() {
-	return serviceType;
+        return serviceType;
     }
 
     public void setServiceType(ServiceType serviceType) {
-	this.serviceType = serviceType;
+        this.serviceType = serviceType;
     }
 
     public String getProjectName() {
-	return projectName;
+        return projectName;
     }
 
     public void setProjectName(String projectName) {
-	this.projectName = projectName;
+        this.projectName = projectName;
     }
 
     public Date getSserviceDate() {
-	return sserviceDate;
+        return sserviceDate;
     }
 
     public void setSserviceDate(Date sserviceDate) {
-	this.sserviceDate = sserviceDate;
+        this.sserviceDate = sserviceDate;
     }
 
     public Date getEserviceDate() {
-	return eserviceDate;
+        return eserviceDate;
     }
 
     public void setEserviceDate(Date eserviceDate) {
-	this.eserviceDate = eserviceDate;
+        this.eserviceDate = eserviceDate;
     }
 
 }
